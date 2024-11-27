@@ -12,7 +12,7 @@ app.get('/article.html', (req, res) => {
 	res.sendFile(path.join(__dirname, 'article.html'))
 })
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 app.listen(PORT, () => {
 	console.log(`Server running at http://localhost:${PORT}`)
 })
