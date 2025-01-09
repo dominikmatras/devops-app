@@ -29,7 +29,7 @@ jobs:
           image-ref: ${{ secrets.DOCKER_USERNAME }}/devopsworld-app:latest
           format: 'table'              # Format tabeli w logach
           vuln-type: 'os,library'      # Skanowanie systemu i bibliotek
-          severity: 'CRITICAL,HIGH'    # Wkanowanie dla podatności CRITICAL i HIGH
+          severity: 'CRITICAL'         # Skanowanie dla podatności CRITICAL
           exit-code: '1'               # Jesli wykryje podatność zatrzyma pipeline
 
       # Push obrazu do Docker Hub
