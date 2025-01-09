@@ -10,9 +10,7 @@
 	"license": "ISC",
 	"description": "",
 	"dependencies": {
+		"cross-spawn": "^7.0.5",
 		"express": "^4.21.1"
-	},
-	"overrides": {
-   		 "cross-spawn": "7.0.5"
-  	}
+	}
 }
