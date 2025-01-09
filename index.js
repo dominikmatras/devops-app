@@ -14,5 +14,5 @@ app.get('/article.html', (req, res) => {
 
 const PORT = process.env.PORT || 8080
 app.listen(PORT, () => {
-	console.log(`Server running at http://localhost:${PORT}`)
+	console.log(`Server running at port: ${PORT}`)
 })
